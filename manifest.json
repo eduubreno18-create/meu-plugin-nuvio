@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "name": "FrameXTV Player",
   "description": "Provedor de streams do FrameXTV",
-  "resources": [
-    "stream"
-  ],
-  "types": [
-    "movie",
-    "series"
-  ],
-  "idPrefixes": [
-    "tt"
-  ],
-  "catalogs": []
+  "resources": ["stream"],
+  "types": ["movie", "series"],
+  "idPrefixes": ["tt"],
+  "catalogs": [],
+  "background": "https://framextv.xyz/embed/",
+  "behaviorHints": {
+    "configurable": false
+  }
 }
