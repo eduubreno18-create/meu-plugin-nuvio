@@ -1,0 +1,10 @@
+{
+  "id": "com.framextv.provider",
+  "version": "1.0.0",
+  "name": "FrameXTV Player",
+  "description": "Provedor de stream do FrameXTV",
+  "manifestVersion": 1,
+  "types": ["movie", "series"],
+  "resources": ["stream"],
+  "idPrefixes": ["tt"]
+}
