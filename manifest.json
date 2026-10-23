@@ -1,10 +1,19 @@
 {
-  "id": "com.framextv.provider",
+  "name": "Repositório FrameXTV",
+  "id": "com.framextv.repository",
   "version": "1.0.0",
-  "name": "FrameXTV Player",
-  "description": "Provedor de stream do FrameXTV",
+  "description": "Repositório de plugins FrameXTV para o Nuvio",
   "manifestVersion": 1,
-  "types": ["movie", "series"],
-  "resources": ["stream"],
-  "idPrefixes": ["tt"]
+  "plugins": [
+    {
+      "id": "com.framextv.provider",
+      "name": "FrameXTV Player",
+      "version": "1.0.0",
+      "description": "Provedor de stream do FrameXTV",
+      "type": "provider",
+      "supportedTypes": ["movie", "series"],
+      "url": "https://framextv.xyz/embed/"
+    }
+  ]
 }
+
